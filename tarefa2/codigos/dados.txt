@@ -27,3 +27,18 @@ Dupla 2:
 Media dos tempos:  0.442
 Gravidade (m/s²): 10.237300628570258
 Desvio padrão dos tempos:  0.05134199061197375
+
+Matheus:
+Media dos tempos:  0.4465
+Gravidade (m/s²): 10.031989506538975
+Desvio padrão dos tempos:  0.06754813098820721
+
+Lucas:
+Media dos tempos:  0.42250000000000004
+Gravidade (m/s²): 11.20408949266482
+Desvio padrão dos tempos:  0.05691001669302163
+
+Todo mundo:
+Media dos tempos:  0.43625
+Gravidade (m/s²): 10.508944918350423
+Desvio padrão dos tempos:  0.08134353590380328
