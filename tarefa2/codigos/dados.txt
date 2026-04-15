@@ -24,3 +24,6 @@ Gravidade (m/s²): 9.681936290438724
 Desvio padrão dos tempos:  0.053429860565043605
 
 Dupla 2:
+Media dos tempos:  0.442
+Gravidade (m/s²): 10.237300628570258
+Desvio padrão dos tempos:  0.05134199061197375

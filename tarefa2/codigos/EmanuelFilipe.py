@@ -17,7 +17,7 @@ def plotar_histograma(qtBins, nome=False):
         nome = "Dupla 1"
         tempos = sorted([float(linha[2]) for linha in dados])
     else:
-        tempos = sorted([float(linha[2]) for linha in dados if linha[0] == nome])            
+        tempos = sorted([float(linha[2]) for linha in dados if linha[0].upper() == nome.upper()])            
     counts, bins, _ = plt.hist(tempos, bins=qtBins, edgecolor='black')
     plt.xticks(bins, rotation=45)
     plt.title(f'Distribuição dos Tempos - {nome}')
@@ -31,7 +31,5 @@ def plotar_histograma(qtBins, nome=False):
     print("Media dos tempos: ", media)
     print("Gravidade (m/s²):", 2/(media**2))
     print("Desvio padrão dos tempos: ", np.std(tempos))
-    
 
-
-plotar_histograma(10)
+plotar_histograma(7, 'Filipe')
