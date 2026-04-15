@@ -1,0 +1,11 @@
+Emanuel:
+Media dos tempos:  0.48
+Gravidade (m/s²): 8.680555555555555
+Desvio padrão dos tempos:  0.09528903399657276
+
+Filipe:
+
+Geral:
+Media dos tempos:  0.43224999999999997
+Gravidade (m/s²): 10.704342383743317
+Desvio padrão dos tempos:  0.11453138216227027
