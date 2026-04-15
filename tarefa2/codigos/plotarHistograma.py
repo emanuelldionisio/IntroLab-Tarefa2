@@ -7,10 +7,13 @@ def plotar_histograma(dados, qtBins, nome):
     if (isinstance(nome, int)):
         nome = f"Dupla {nome}"
         tempos = sorted([float(linha[2]) for linha in dados])
+    elif (nome == "Todos"):
+        nome = "Grupo"
+        tempos = sorted([float(linha[2]) for linha in dados])
     else:
         tempos = sorted([float(linha[2]) for linha in dados if linha[0].upper() == nome.upper()])            
     
-    counts, bins, _ = plt.hist(tempos, bins=qtBins, edgecolor='black')
+    counts, bins, _ = plt.hist(tempos, bins=qtBins, density=True, edgecolor='black')
     mu, std = norm.fit(tempos)
     
     xmin, xmax = plt.xlim()

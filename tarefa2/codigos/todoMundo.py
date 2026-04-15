@@ -11,4 +11,4 @@ from LucasMatheus import dados as dados3
 dados = dados1 + dados2 + dados3
 
 if (__name__ == "__main__"):
-    plotar_histograma(dados, 10, 4)
+    plotar_histograma(dados, 10, "Todos")

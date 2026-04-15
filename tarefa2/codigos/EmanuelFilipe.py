@@ -13,4 +13,4 @@ with open('tarefa1/duplas/EmanuelFilipe.csv', 'r') as arquivo:
 dados.pop(0)
 
 if (__name__ == "__main__"):
-    plotar_histograma(dados, 7, "Filipe")
+    plotar_histograma(dados, 10, 1)
