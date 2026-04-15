@@ -33,4 +33,4 @@ def plotar_histograma(qtBins, nome=False):
     print("Gravidade (m/s²):", 2/(media**2))
     print("Desvio padrão dos tempos: ", np.std(tempos))
 
-plotar_histograma(7, 'Lucas')
+plotar_histograma(8)
