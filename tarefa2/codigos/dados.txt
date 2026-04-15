@@ -1,42 +1,60 @@
+Incertezas:
+Trena: 0.026 m
+Cronômetro 0.016 s (considerando uma taxa de atualização de 60Hz da tela)
+
 Emanuel:
 Media dos tempos:  0.48
 Gravidade (m/s²): 8.680555555555555
 Desvio padrão dos tempos:  0.09528903399657276
+g = 8.7 +- 0.6
 
 Filipe:
 Media dos tempos:  0.38449999999999995
 Gravidade (m/s²): 13.528115651860713
 Desvio padrão dos tempos:  0.11222633380806842
+g = (1.4 +- 0.1) * 10
 
 Dupla 1:
 Media dos tempos:  0.43224999999999997
 Gravidade (m/s²): 10.704342383743317
 Desvio padrão dos tempos:  0.11453138216227027
+g = 10.8 +- 0.9
 
 Gabryel:
 Media dos tempos:  0.4295
 Gravidade (m/s²): 10.84185661373582
 Desvio padrão dos tempos:  0.04587755442479471
+g = 10.8 +- 0.9
 
 Lucas:
 Media dos tempos:  0.4545
 Gravidade (m/s²): 9.681936290438724
 Desvio padrão dos tempos:  0.053429860565043605
+g = 9.9 +- 0.7
 
 Dupla 2:
 Media dos tempos:  0.442
 Gravidade (m/s²): 10.237300628570258
 Desvio padrão dos tempos:  0.05134199061197375
-
-Matheus:
-Media dos tempos:  0.4465
-Gravidade (m/s²): 10.031989506538975
-Desvio padrão dos tempos:  0.06754813098820721
+g = (1.03 +- 0.08) * 10
 
 Lucas:
 Media dos tempos:  0.42250000000000004
 Gravidade (m/s²): 11.20408949266482
 Desvio padrão dos tempos:  0.05691001669302163
+g = (1.13 +- 0.09) * 10
+
+Matheus:
+Media dos tempos:  0.4465
+Gravidade (m/s²): 10.031989506538975
+Desvio padrão dos tempos:  0.06754813098820721
+g = 9.9 +- 0.7
+
+Dupla 3:
+Media dos tempos:  0.4344999999999999
+Gravidade (m/s²): 10.593767421781585
+Desvio padrão dos tempos:  0.06359834903517543
+g = 10.8 +- 0.9
 
 Todo mundo:
 Media dos tempos:  0.43625
