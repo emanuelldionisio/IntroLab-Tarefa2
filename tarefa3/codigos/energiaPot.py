@@ -2,7 +2,7 @@ import csv
 import matplotlib.pyplot as plt
 import numpy as np
 
-def plotar_energiaPot(numero):
+def plotar_energiaPot(numero, posicao):
     dados = []
     with open(f'tarefa3/dados/Tracker{numero}.csv', 'r') as arquivo:
         leitor = csv.reader(arquivo)
@@ -11,14 +11,24 @@ def plotar_energiaPot(numero):
     dados.pop(0)
     
     tempo = [float(linha[0]) for linha in dados if linha[5] != '']
-    energiaPot = [float(linha[5]) for linha in dados if linha[5] != '']
+    tempo = [float(linha[0])/32000 for linha in dados if linha[2] != '']
+    tempo = tempo[len(tempo)-len(posicao):]
     
+    velocidade = np.gradient(posicao, tempo)
+    aceleracao = np.gradient(velocidade, tempo)
+    g = -np.mean(aceleracao)
+
+    massa = 7.9*10**(-3)
+    
+    energiaPot = [massa*g*posicao[i] for i in range(len(posicao))]
+
     x = np.linspace(min(tempo), max(tempo), 100)
-    coeficientes = np.polyfit(tempo, energiaPot, 2)
+    coeficientes, cov = np.polyfit(tempo, energiaPot, 2, cov=True)
     energiaPotAjustada = np.polyval(coeficientes, x)
-    
-    plt.plot(tempo, energiaPot, 'o', label='Energia Potencial (J)', color='blue', linewidth=1)
-    plt.plot(x, energiaPotAjustada, label=f'Ajuste de curva: {coeficientes[0]:.2f}t² + {coeficientes[1]:.2f}t + {coeficientes[2]:.2f}', color='red', linewidth=2)
+    print(f"Incerteza do ajuste de curva energia potencial {numero}: ", np.sqrt(cov[0][0]))
+
+    plt.plot(tempo, energiaPot, 'o', label='Energia Potencial (J)', color='blue', markersize=1)
+    plt.plot(x, energiaPotAjustada, '--', label=f'Ajuste de curva: {coeficientes[0]:.2f}t² + {coeficientes[1]:.2f}t + {coeficientes[2]:.2f}', color='red', linewidth=2)
     plt.legend()
     plt.title(f'Energia Potencial - Tracker {numero}')
     plt.xlabel('Tempo (s)')
