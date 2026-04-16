@@ -13,16 +13,13 @@ def plotar_aceleracao(numero):
     
     tempo = [float(linha[numero*3+1])/10**6 for linha in dados]
     posicao = [float(linha[numero*3])/100 for linha in dados]
-
-    print(tempo)
-    print(posicao)
     
     x = np.linspace(min(tempo), max(tempo), 100)
     coeficientes, cov = np.polyfit(tempo, posicao, 2, cov=True)
     posicaoAjustada = np.polyval(coeficientes, x)
     incerteza = np.sqrt(np.diag(cov))
 
-    print(incerteza)
+    print(incerteza[0])
 
     plt.plot(tempo, posicao, 'o', label='Posição (m)', color='blue', linewidth=1)
     plt.plot(x, posicaoAjustada, label=f'Ajuste de curva: {coeficientes[0]:.2f}t² + {coeficientes[1]:.2f}t + {coeficientes[2]:.2f}', color='red', linewidth=2)
