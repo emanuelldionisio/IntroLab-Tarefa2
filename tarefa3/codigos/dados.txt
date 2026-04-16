@@ -1,0 +1,29 @@
+Incerteza do ajuste de curva posição 1:  0.007018116602488363
+Incerteza do ajuste de curva velocidade 1:  0.043075635413850906
+Incerteza do ajuste de curva da aceleração 1:  1.6351508857526402
+Incerteza do ajuste de curva energia cinética 1:  0.009619417601664088
+Incerteza do ajuste de curva energia potencial 1:  0.0005232345376372957
+
+Incerteza do ajuste de curva posição 2:  0.004880276658481612
+Incerteza do ajuste de curva velocidade 2:  0.04845453078797365
+Incerteza do ajuste de curva da aceleração 2:  2.203623017524865
+Incerteza do ajuste de curva energia cinética 2:  0.009950510390505804
+Incerteza do ajuste de curva energia potencial 2:  0.00036358870465637457
+
+Incerteza do ajuste de curva posição 3:  0.008929060406243873
+Incerteza do ajuste de curva velocidade 3:  0.04526110586394894
+Incerteza do ajuste de curva da aceleração 3:  2.2888439786084533
+Incerteza do ajuste de curva energia cinética 3:  0.009192576178145138
+Incerteza do ajuste de curva energia potencial 3:  0.0006761986691362598
+
+Incerteza do ajuste de curva posição 4:  0.004874605143865459
+Incerteza do ajuste de curva velocidade 4:  0.04057870325787133
+Incerteza do ajuste de curva da aceleração 4:  1.5407292167927953
+Incerteza do ajuste de curva energia cinética 4:  0.009423697238248872
+Incerteza do ajuste de curva energia potencial 4:  0.00035958232909043475
+
+Incerteza do ajuste de curva posição 5:  0.006539469957883263
+Incerteza do ajuste de curva velocidade 5:  0.05021324817788078
+Incerteza do ajuste de curva da aceleração 5:  1.810252118025669
+Incerteza do ajuste de curva energia cinética 5:  0.014373426126272989
+Incerteza do ajuste de curva energia potencial 5:  0.000489145225257008
