@@ -1,0 +1,49 @@
+Emanuel:
+Media dos tempos:  410989.6
+Gravidade (m/s²): 11.840453350305397
+Desvio padrão dos tempos:  15819.914760832311
+
+Filipe:
+Media dos tempos:  437600.4
+Gravidade (m/s²): 10.444185459086935
+Desvio padrão dos tempos:  15812.37560393757
+
+Dupla 1:
+Media dos tempos:  424295.0
+Gravidade (m/s²): 11.109491160598726
+Desvio padrão dos tempos:  20668.43322073543
+
+Gabryel:
+Media dos tempos:  443620.8
+Gravidade (m/s²): 10.162631876750764
+Desvio padrão dos tempos:  13234.964698101767
+
+Lucas:
+Media dos tempos:  445788.0
+Gravidade (m/s²): 10.06406071818711
+Desvio padrão dos tempos:  9097.880368525408
+
+Dupla 2:
+Media dos tempos:  444704.4
+Gravidade (m/s²): 10.113166158432715
+Desvio padrão dos tempos:  11407.981760153722
+
+Matheus:
+Media dos tempos:  430696.0
+Gravidade (m/s²): 10.781726699975886
+Desvio padrão dos tempos:  10019.180964529985
+
+Lucas:
+Media dos tempos:  430903.2
+Gravidade (m/s²): 10.77136039650642
+Desvio padrão dos tempos:  7129.508213053688
+
+Dupla 3:
+Media dos tempos:  430799.6
+Gravidade (m/s²): 10.776541678551018
+Desvio padrão dos tempos:  8695.842123681869
+
+Grupo:
+Media dos tempos:  433266.3333333333
+Gravidade (m/s²): 10.654181920137196
+Desvio padrão dos tempos:  16835.902253484634
