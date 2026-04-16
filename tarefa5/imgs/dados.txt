@@ -1,0 +1,5 @@
+Incertezas:
+Trena: 0.0005
+delay micros() de 10e-3 s
+
+Ultrassom:

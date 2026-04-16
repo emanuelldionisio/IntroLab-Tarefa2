@@ -10,14 +10,14 @@ def plotar_aceleracao(numero):
             dados.append(linha)
     dados.pop(0)
     
-    tempo = [float(linha[0]) for linha in dados if linha[3] != '']
-    aceleracao = [float(linha[3]) for linha in dados if linha[3] != '']
-    
+    tempo = [float(linha[0])/32000 for linha in dados if linha[4] != '']
+    aceleracao = [float(linha[4]) for linha in dados if linha[4] != '']
+
     x = np.linspace(min(tempo), max(tempo), 100)
     coeficientes = np.polyfit(tempo, aceleracao, 0)
     aceleracaoAjustada = np.polyval(coeficientes, x)
     
-    plt.plot(tempo, aceleracao, 'o', label='Aceleração (m/s²)', color='blue', linewidth=1)
+    plt.plot(tempo, aceleracao, 'o', label='Aceleração (m/s²)', color='blue', markersize=3)
     plt.plot(x, aceleracaoAjustada, label=f'Ajuste de curva: {coeficientes[0]:.2f}', color='red', linewidth=2)
     plt.legend()
     plt.title(f'Aceleração - Tracker {numero}')
