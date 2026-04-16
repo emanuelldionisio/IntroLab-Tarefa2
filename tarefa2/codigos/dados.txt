@@ -60,3 +60,4 @@ Todo mundo:
 Media dos tempos:  0.43625
 Gravidade (m/s²): 10.508944918350423
 Desvio padrão dos tempos:  0.08134353590380328
+g = (1.03 +- 0.08) * 10
