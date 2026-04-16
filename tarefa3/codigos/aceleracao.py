@@ -11,7 +11,7 @@ def plotar_aceleracao(numero):
     dados.pop(0)
     
     tempo = [float(linha[0])/32000 for linha in dados if linha[4] != '']
-    aceleracao = [float(linha[4]) for linha in dados if linha[4] != '']
+    aceleracao = [float(linha[4])*32*32*10**9 for linha in dados if linha[4] != '']
 
     x = np.linspace(min(tempo), max(tempo), 100)
     coeficientes = np.polyfit(tempo, aceleracao, 0)
